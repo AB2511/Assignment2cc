@@ -1,6 +1,6 @@
-def greet(name)
-    print(fHello, {name}! Welcome to Google Cloud.)
+def greet(name):
+    print(f"Hello, {name}! Welcome to Google Cloud.")
 
-if __name__ == __main__
-    user_name = input(Enter your name )
+if __name__ == "__main__":
+    user_name = input("Enter your name: ")
     greet(user_name)
